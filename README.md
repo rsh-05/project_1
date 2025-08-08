@@ -13,14 +13,14 @@ else:
     quit()
 score = 0
 
-q1 = input(("Question 1 - What is the Derivative of Sinx? : "))
+q1 = input("Question 1 - What is the Derivative of Sinx? : ")
 if q1.lower() == "cosx":
     print("Correct Answer")
     score += 1
 else:
     print("Wrong Answer")
 
-q2 = (input("Question 2 - What is the constant parameter in Isobaric process in Thermodynamics? : "))
+q2 = input("Question 2 - What is the constant parameter in Isobaric process in Thermodynamics? : ")
 if q2.lower() == "pressure":
     print("Correct Answer")
     score += 1
